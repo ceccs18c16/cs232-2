@@ -52,6 +52,11 @@ Output: Got the sum of all integers
 5. Task 2
 
 Input: pdf to text file of s1 result
-
+    
+    
 output: got the passed students list of same batch
+  
+  
+       a.txt --> all cs students list
+       p.txt --> all passed out stuident of the batch
 ------------------------------------------------------------
