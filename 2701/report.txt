@@ -49,3 +49,9 @@ Output: Got the sum of all integers
    
      103
 ------------------------------------------------------------
+5. Task 2
+
+Input: pdf to text file of s1 result
+
+output: got the passed students list of same batch
+------------------------------------------------------------
