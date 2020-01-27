@@ -1,0 +1,114 @@
+Script started on Thursday 11 February 2016 10:13:46 PM IST
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ cat ab.[Kc.txt
+cat: abc.txt: No such file or directory
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ cat abc.txt> abc.txt
+cricket
+football
+vollr eyball
+basketball
+golf
+tennis
+^C
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ sort -n abc.txt
+basketball
+cricket
+football
+golf
+tennis
+volleyball
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ sort -rnk7 abc.txt
+volleyball
+tennis
+golf
+football
+cricket
+basketball
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ cut -f4 abc.txt
+cricket
+football
+volleyball
+basketball
+golf
+tennis
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ cut f1- abc.txt
+cut: you must specify a list of bytes, characters, or fields
+Try 'cut --help' for more information.
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ cut f1- abc.txt[C[K[K[K[K[K[K[K
+cut: you must specify a list of bytes, characters, or fields
+Try 'cut --help' for more information.
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ cat  > xyx[Kz.txt
+bs at
+ball
+baseball
+tennisball
+
+^C
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ cat xyz.txt
+bat
+ball
+baseball
+tennisball
+
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ join r.abc.txt r.xyz.txt
+join: r.abc.txt: No such file or directory
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ join r.abc.txt r.xyz.txt[1Pxyz.txt[1Pxyz.txt[1P[1P
+join: xyz.txt:5: is not sorted: 
+join: abc.txt:4: is not sorted: basketball
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ sort -n abc.txt
+basketball
+cricket
+football
+golf
+tennis
+volleyball
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ sort -n xyz.txt
+
+ball
+baseball
+bat
+tennisball
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ sort -n xyz.txtabc.txtjoin abc.txt xyz.txt
+join: xyz.txt:5: is not sorted: 
+join: abc.txt:4: is not sorted: basketball
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ join abc.txt xyz.txt[1P[1P[1P[1P[1@p[1@a[1@s[1@t[1@e
+cricket	bat
+football	ball
+volleyball	baseball
+basketball	tennisball
+golf	
+tennis	
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ grep -c abc.txt
+hello
+^C
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ cat abc.txt
+cricket
+football
+volleyball
+basketball
+golf
+tennis
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ cat abc.txt[4@grep -c[C[C[C[C[C[C[C[C[1P abc.txt[1P abc.txt2 abc.txt3 abc.txt3 abc.txt4 abc.txt[1P abc.txt[1P abc.txt4 abc.txt
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ grep 234 abc.txt[5Pcat[C[C[C[C[C[C[C[C
+cricket
+football
+volleyball
+basketball
+golf
+tennis
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ cat abc.txt[Kcat abc.txt[Kll>abc.txt
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ cut f1-[K[K[K-f1 xyz,[K.txt
+bat
+ball
+baseball
+tennisball
+
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ git init
+Initialized empty Git repository in /home/s4c2/ceccs18c52/cs232/2701/.git/
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ export hh[Kttp_proxy=http://19 2.168.0.2:3128
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ 
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ 11. Format of report.txt
+11.: command not found
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ exit
+exit
+
+Script done on Monday 27 January 2020 09:48:08 AM IST
