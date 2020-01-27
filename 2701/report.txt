@@ -2,16 +2,50 @@ CEC CS 18 C52
 Sarath Kumar S
 
 
-1: Create text files
+1. Sort text files
+ 
 
-Sorting, cut, paste two file
+Program: abc.txt   xyz.txt
 
-Input: given two text files
+Input: provide informations in files
 
+Otput: Sorted two files
 
+   sort -n abc.txt
+   sort -n xyz.txt
+   
 
-Output: Sorted in Normal and Reverse order
-        Paste them
+     Sorted in Reverse order
+   
+   sort -rnk7 abc.txt
+   sort -rnk7 abc.txt
 
+------------------------------------------------------------
+2. Joining two files
 
+Input: Read two text files
 
+Output: Joined two files
+
+    paste abc.txt xyz.txt
+    join abc.txt xyz.txt
+
+------------------------------------------------------------
+3. grep
+
+Input: Search the text
+       
+       grep -c "ball" xyz.txt
+Output: Found its position at 3
+
+------------------------------------------------------------
+4. Sum of the integers
+
+Input: Create a text file of numbers 
+   
+   perform: awk ’{s+=$1} END {print s}’ file
+
+Output: Got the sum of all integers
+   
+     108
+------------------------------------------------------------
