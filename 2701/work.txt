@@ -104,11 +104,46 @@ tennisball
 
 ]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ git init
 Initialized empty Git repository in /home/s4c2/ceccs18c52/cs232/2701/.git/
-]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ export hh[Kttp_proxy=http://19 2.168.0.2:3128
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ export hh[Kttp_proxy=http://19 
+2.168.0.2:3128
 ]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ 
 ]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ 11. Format of report.txt
 11.: command not found
 ]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ exit
 exit
+Script started on Monday 27 January 2020 10:53:22 AM IST
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ exitgit pullcommit -m "First commit"
+"[A
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ [C[C[C[Cpull[K
 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pexit[Kexit[Kge[Krep -c "ball" xyz.txt
+3
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ cat >num.txt
+4
+2
+8
+65
+12
+7
+5
+^C
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ awk '{s+$1} EB[KND print s}'[1@{[C[C[C[C[C[C[C[C[C  
+num.txt
+
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ awk '{s+$1} END {print s}' n
+num.txt
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C=$1} END {print s}' num.txt[A
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ [C[C[C[C[C[C[C[C[C
+
+
+103
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ gedit report.txt
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ pdf to [K[K[K[Ktotxt-layout
+pdftotxt-layout: command not found
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ pdftotxt-layoutext-layout
+pdftotext-layout: command not found
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2701[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2701[00m$ exit
+exit
+
+Script done on Monday 27 January 2020 11:16:11 AM IST
 Script done on Monday 27 January 2020 09:48:08 AM IST
