@@ -47,5 +47,5 @@ Input: Create a text file of numbers
 
 Output: Got the sum of all integers
    
-     108
+     103
 ------------------------------------------------------------
