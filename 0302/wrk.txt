@@ -1,0 +1,567 @@
+Script started on Thursday 11 February 2016 10:07:38 PM IST
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ ifconi[Kfig -a
+enp0s25   Link encap:Ethernet  HWaddr 10:78:d2:e0:ae:5a  
+          inet addr:192.168.0.88  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::98e8:ebe9:b7cf:de08/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:14207 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:4746 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:9992287 (9.9 MB)  TX bytes:591374 (591.3 KB)
+          Interrupt:20 Memory:fbbc0000-fbbe0000 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:1324 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1324 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:90376 (90.3 KB)  TX bytes:90376 (90.3 KB)
+
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ route -n
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 enp0s25
+192.168.0.0     0.0.0.0         255.255.254.0   U     100    0        0 enp0s25
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ route add default gw 192.16 
+8.0.2
+SIOCADDRT: Operation not permitted
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ ping 192.1168.0.1
+ping: unknown host 192.1168.0.1
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ ping 192.1168.0.1[1P68.0.1
+PING 192.168.0.1 (192.168.0.1) 56(84) bytes of data.
+64 bytes from 192.168.0.1: icmp_seq=1 ttl=64 time=9.83 ms
+64 bytes from 192.168.0.1: icmp_seq=2 ttl=64 time=2.67 ms
+64 bytes from 192.168.0.1: icmp_seq=3 ttl=64 time=2.80 ms
+64 bytes from 192.168.0.1: icmp_seq=4 ttl=64 time=18.5 ms
+64 bytes from 192.168.0.1: icmp_seq=5 ttl=64 time=2.67 ms
+64 bytes from 192.168.0.1: icmp_seq=6 ttl=64 time=2.70 ms
+64 bytes from 192.168.0.1: icmp_seq=7 ttl=64 time=2.97 ms
+64 bytes from 192.168.0.1: icmp_seq=8 ttl=64 time=2.76 ms
+64 bytes from 192.168.0.1: icmp_seq=9 ttl=64 time=2.73 ms
+64 bytes from 192.168.0.1: icmp_seq=10 ttl=64 time=2.64 ms
+64 bytes from 192.168.0.1: icmp_seq=11 ttl=64 time=2.66 ms
+64 bytes from 192.168.0.1: icmp_seq=12 ttl=64 time=2.76 ms
+64 bytes from 192.168.0.1: icmp_seq=13 ttl=64 time=2.86 ms
+64 bytes from 192.168.0.1: icmp_seq=14 ttl=64 time=2.65 ms
+64 bytes from 192.168.0.1: icmp_seq=15 ttl=64 time=2.63 ms
+64 bytes from 192.168.0.1: icmp_seq=16 ttl=64 time=2.68 ms
+64 bytes from 192.168.0.1: icmp_seq=17 ttl=64 time=2.74 ms
+64 bytes from 192.168.0.1: icmp_seq=18 ttl=64 time=2.81 ms
+64 bytes from 192.168.0.1: icmp_seq=19 ttl=64 time=2.66 ms
+64 bytes from 192.168.0.1: icmp_seq=20 ttl=64 time=2.69 ms
+64 bytes from 192.168.0.1: icmp_seq=21 ttl=64 time=2.72 ms
+64 bytes from 192.168.0.1: icmp_seq=22 ttl=64 time=2.62 ms
+64 bytes from 192.168.0.1: icmp_seq=23 ttl=64 time=2.80 ms
+64 bytes from 192.168.0.1: icmp_seq=24 ttl=64 time=2.69 ms
+64 bytes from 192.168.0.1: icmp_seq=25 ttl=64 time=2.68 ms
+64 bytes from 192.168.0.1: icmp_seq=26 ttl=64 time=2.74 ms
+64 bytes from 192.168.0.1: icmp_seq=27 ttl=64 time=2.69 ms
+64 bytes from 192.168.0.1: icmp_seq=28 ttl=64 time=2.93 ms
+64 bytes from 192.168.0.1: icmp_seq=29 ttl=64 time=2.86 ms
+64 bytes from 192.168.0.1: icmp_seq=30 ttl=64 time=2.83 ms
+64 bytes from 192.168.0.1: icmp_seq=31 ttl=64 time=2.69 ms
+64 bytes from 192.168.0.1: icmp_seq=32 ttl=64 time=2.66 ms
+64 bytes from 192.168.0.1: icmp_seq=33 ttl=64 time=2.74 ms
+64 bytes from 192.168.0.1: icmp_seq=34 ttl=64 time=4.70 ms
+64 bytes from 192.168.0.1: icmp_seq=35 ttl=64 time=22.4 ms
+64 bytes from 192.168.0.1: icmp_seq=36 ttl=64 time=2.65 ms
+64 bytes from 192.168.0.1: icmp_seq=37 ttl=64 time=2.61 ms
+64 bytes from 192.168.0.1: icmp_seq=38 ttl=64 time=2.70 ms
+64 bytes from 192.168.0.1: icmp_seq=39 ttl=64 time=2.74 ms
+64 bytes from 192.168.0.1: icmp_seq=40 ttl=64 time=2.86 ms
+64 bytes from 192.168.0.1: icmp_seq=41 ttl=64 time=2.78 ms
+64 bytes from 192.168.0.1: icmp_seq=42 ttl=64 time=2.74 ms
+64 bytes from 192.168.0.1: icmp_seq=43 ttl=64 time=2.76 ms
+64 bytes from 192.168.0.1: icmp_seq=44 ttl=64 time=2.70 ms
+64 bytes from 192.168.0.1: icmp_seq=45 ttl=64 time=2.76 ms
+64 bytes from 192.168.0.1: icmp_seq=46 ttl=64 time=2.74 ms
+64 bytes from 192.168.0.1: icmp_seq=47 ttl=64 time=2.68 ms
+64 bytes from 192.168.0.1: icmp_seq=48 ttl=64 time=2.69 ms
+64 bytes from 192.168.0.1: icmp_seq=49 ttl=64 time=2.80 ms
+64 bytes from 192.168.0.1: icmp_seq=50 ttl=64 time=2.79 ms
+64 bytes from 192.168.0.1: icmp_seq=51 ttl=64 time=2.69 ms
+64 bytes from 192.168.0.1: icmp_seq=52 ttl=64 time=2.66 ms
+64 bytes from 192.168.0.1: icmp_seq=53 ttl=64 time=2.75 ms
+64 bytes from 192.168.0.1: icmp_seq=54 ttl=64 time=2.69 ms
+64 bytes from 192.168.0.1: icmp_seq=55 ttl=64 time=2.76 ms
+64 bytes from 192.168.0.1: icmp_seq=56 ttl=64 time=2.85 ms
+64 bytes from 192.168.0.1: icmp_seq=57 ttl=64 time=2.69 ms
+64 bytes from 192.168.0.1: icmp_seq=58 ttl=64 time=2.70 ms
+64 bytes from 192.168.0.1: icmp_seq=59 ttl=64 time=2.64 ms
+64 bytes from 192.168.0.1: icmp_seq=60 ttl=64 time=2.67 ms
+64 bytes from 192.168.0.1: icmp_seq=61 ttl=64 time=13.5 ms
+64 bytes from 192.168.0.1: icmp_seq=62 ttl=64 time=2.74 ms
+64 bytes from 192.168.0.1: icmp_seq=63 ttl=64 time=2.71 ms
+64 bytes from 192.168.0.1: icmp_seq=64 ttl=64 time=2.68 ms
+64 bytes from 192.168.0.1: icmp_seq=65 ttl=64 time=2.66 ms
+64 bytes from 192.168.0.1: icmp_seq=66 ttl=64 time=2.77 ms
+64 bytes from 192.168.0.1: icmp_seq=67 ttl=64 time=27.2 ms
+64 bytes from 192.168.0.1: icmp_seq=68 ttl=64 time=2.71 ms
+64 bytes from 192.168.0.1: icmp_seq=69 ttl=64 time=2.73 ms
+64 bytes from 192.168.0.1: icmp_seq=70 ttl=64 time=2.71 ms
+64 bytes from 192.168.0.1: icmp_seq=71 ttl=64 time=4.62 ms
+64 bytes from 192.168.0.1: icmp_seq=72 ttl=64 time=2.86 ms
+64 bytes from 192.168.0.1: icmp_seq=73 ttl=64 time=2.64 ms
+64 bytes from 192.168.0.1: icmp_seq=74 ttl=64 time=2.66 ms
+64 bytes from 192.168.0.1: icmp_seq=75 ttl=64 time=2.65 ms
+64 bytes from 192.168.0.1: icmp_seq=76 ttl=64 time=2.79 ms
+64 bytes from 192.168.0.1: icmp_seq=77 ttl=64 time=2.85 ms
+64 bytes from 192.168.0.1: icmp_seq=78 ttl=64 time=2.76 ms
+64 bytes from 192.168.0.1: icmp_seq=79 ttl=64 time=2.73 ms
+64 bytes from 192.168.0.1: icmp_seq=80 ttl=64 time=2.79 ms
+64 bytes from 192.168.0.1: icmp_seq=81 ttl=64 time=2.74 ms
+64 bytes from 192.168.0.1: icmp_seq=82 ttl=64 time=2.94 ms
+64 bytes from 192.168.0.1: icmp_seq=83 ttl=64 time=4.55 ms
+64 bytes from 192.168.0.1: icmp_seq=84 ttl=64 time=3.23 ms
+64 bytes from 192.168.0.1: icmp_seq=85 ttl=64 time=2.71 ms
+64 bytes from 192.168.0.1: icmp_seq=86 ttl=64 time=2.73 ms
+64 bytes from 192.168.0.1: icmp_seq=87 ttl=64 time=2.72 ms
+64 bytes from 192.168.0.1: icmp_seq=88 ttl=64 time=2.70 ms
+^C
+--- 192.168.0.1 ping statistics ---
+88 packets transmitted, 88 received, 0% packet loss, time 87159ms
+rtt min/avg/max/mdev = 2.613/3.691/27.237/3.897 ms
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ 6  Me[K[K[K[K[Kcat /etc/resolve.conf
+cat: /etc/resolve.conf: No such file or directory
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ mkdir abc.txt
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ mkdir abc.txtcat /etc/resolve.conf[1Pc/resolve.conf[1Pc/resolve.confac/resolve.confbc/resolve.conf
+cat: /abc/resolve.conf: No such file or directory
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ cat /abc/resolve.conf[8Pmkdir abc.txt[K[K[K[K[Kc
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ mkdir abccat /abc/resolve.conf
+cat: /abc/resolve.conf: No such file or directory
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ rmdir abc
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ rmdir abc.txt
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ 
+[K]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ rmdir abc.txt[Kcat /abc/resolve.conf[12Pmkdir abccat /abc/resolve.conf[8Pmkdir abc.txtcat /etc/resolve.conf[C[1P.conf
+# Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)
+#     DO NOT EDIT THIS FILE BY HAND -- YOUR CHANGES WILL BE OVERWRITTEN
+nameserver 127.0.1.1
+search example.org
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ echo "nameserver 1.1.1.1" >> resolve[K.conf 
+[A
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ ifconfig eth)[K0 192.168.0.20
+SIOCSIFADDR: Operation not permitted
+eth0: ERROR while getting interface flags: No such device
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ ifconfig eth0 192.168.0.20[K
+SIOCSIFADDR: Operation not permitted
+eth0: ERROR while getting interface flags: No such device
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ ifconfig eth0 192.168.0.2[K12[K
+SIOCSIFADDR: Operation not permitted
+eth0: ERROR while getting interface flags: No such device
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ route
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+link-local      *               255.255.0.0     U     1000   0        0 enp0s25
+192.168.0.0     *               255.255.254.0   U     100    0        0 enp0s25
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ route add default gw 192.168.1.1
+SIOCADDRT: Operation not permitted
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ 1[Kiwconfig
+enp0s25   no wireless extensions.
+
+lo        no wireless extensions.
+
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ dhclient usb0
+Cannot find device "usb0"
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ tcpdump -i eth0
+tcpdump: eth0: SIOCETHTOOL(ETHTOOL_GET_TS_INFO) ioctl failed: No such device
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ ping
+Usage: ping [-aAbBdDfhLnOqrRUvV] [-c count] [-i interval] [-I interface]
+            [-m mark] [-M pmtudisc_option] [-l preload] [-p pattern] [-Q tos]
+            [-s packetsize] [-S sndbuf] [-t ttl] [-T timestamp_option]
+            [-w deadline] [-W timeout] [hop1 ...] destination
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ ifup
+ifup: no interface(s) specified
+ifup: Use --help for help
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ dhclient enp0s25
+RTNETLINK answers: Operation not permitted
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ dhclient enp0s25[K[K
+Cannot find device "enp0s"
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ 
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ dhclient enp0s[Kgedit epo[K[K[Kreo[Kport.txt
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ gedit report.txt
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ ifconfig -s
+Iface   MTU Met   RX-OK RX-ERR RX-DRP RX-OVR    TX-OK TX-ERR TX-DRP TX-OVR Flg
+enp0s25    1500 0     68373      0      0 0          9514      0      0      0 BMRU
+lo        65536 0     12764      0      0 0         12764      0      0      0 LRU
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ rou[K[K[Kssh ceccs18c52@192.168.0.30[1Pceccs18c52@192.168.0.30[1Peccs18c52@192.168.0.30[1Pccs18c52@192.168.0.30[C[1Ps18c52@192.168.0.30 cs18c52@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c52@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+402 packages can be updated.
+0 updates are security updates.
+
+$ rsync -av0302^[[D^[[D^[[D^[[D^[[D^[[D^[[D                                 03            ^Z
+$ exit
+Connection to 192.168.0.30 closed.
+
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ rsync -av 0302/
+sending incremental file list
+rsync: change_dir "/home/s4c2/ceccs18c52/cs232/0302//0302" failed: No such file or directory (2)
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1183) [sender=3.1.1]
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ rsync -av 0302/[1P/[1P/[1P/[1P/
+sending incremental file list
+drwxr-xr-x          4,096 2020/01/31 22:55:17 .
+lrwxrwxrwx             33 2020/01/31 22:55:17 initrd.img -> boot/initrd.img-4.15.0-76-generic
+lrwxrwxrwx             33 2020/01/31 22:55:17 initrd.img.old -> boot/initrd.img-4.10.0-28-generic
+^Z
+[1]+  Stopped                 rsync -av /
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ rsync -av /0302/ssh cs18c52@192.168.0.30[13Pifconfig -sgedit report.txt[2Pdhclient enp0s25ifup[Kpingtcpdump -i eth0[2Pdhclient usb0[5Piwconfigroute add default gw 192.168.1.1[Kifconfig eth0 192.168.0.120echo "nameserver 1.1.1.1" >> resolv.conf 
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[20Pcat /etc/resolv.conf
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Prmdir abc.txt[Kcat /abc/resolve.conf[12Pmkdir abccat /abc/resolve.conf[8Pmkdir abc.txtcat /abc/resolve.conf[12Pmkdir abccat /abc/resolve.conf[12Prmdir abc.txtcat /etc/resolv.confecho "nameserver 1.1.1.1" >> resolv.conf 
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pifconfig eth0 192.168.0.20
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K1route[K add default gw 192.168.1.1iwconfig[Kdhclient usb0tcpdump -i eth0ping[Kifupdhclient enp0s25[Kgedit report.txt[5Pifconfig -sssh cs18c52@192.168.0.30[9Prsync -av 0302//[K[Ks4c2@ceclab2-Veriton-Series:~/ceccs18c52 
+/cs232/0302$ ifconfig -s
+bash: s4c2@ceclab2-Veriton-Series:~/ceccs18c52/cs232/0302$: No such file or directory
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ Ifaces4c2@ceclab2-Veriton-Series:~/ceccs 
+18c52/cs232/0302$ ifconfig -s
+bash: Ifaces4c2@ceclab2-Veriton-Series:~/ceccs18c52/cs232/0302$: No such file or directory
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ Ifaces4c2@ceclab2-Veriton-Series:~/ceccs 
+18c52/cs232/0302$ ifconfig -s
+bash: Ifaces4c2@ceclab2-Veriton-Series:~/ceccs18c52/cs232/0302$: No such file or directory
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ Iface[K[K[K[K[Kifcongig[K[K[Kfig
+enp0s25   Link encap:Ethernet  HWaddr 10:78:d2:e0:ae:5a  
+          inet addr:192.168.0.88  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::98e8:ebe9:b7cf:de08/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:71984 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:9694 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:21336314 (21.3 MB)  TX bytes:1371490 (1.3 MB)
+          Interrupt:20 Memory:fbbc0000-fbbe0000 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:15020 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:15020 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:995048 (995.0 KB)  TX bytes:995048 (995.0 KB)
+
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ ping
+Usage: ping [-aAbBdDfhLnOqrRUvV] [-c count] [-i interval] [-I interface]
+            [-m mark] [-M pmtudisc_option] [-l preload] [-p pattern] [-Q tos]
+            [-s packetsize] [-S sndbuf] [-t ttl] [-T timestamp_option]
+            [-w deadline] [-W timeout] [hop1 ...] destination
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ ping -c
+ping: option requires an argument -- 'c'
+Usage: ping [-aAbBdDfhLnOqrRUvV] [-c count] [-i interval] [-I interface]
+            [-m mark] [-M pmtudisc_option] [-l preload] [-p pattern] [-Q tos]
+            [-s packetsize] [-S sndbuf] [-t ttl] [-T timestamp_option]
+            [-w deadline] [-W timeout] [hop1 ...] destination
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ roue -n[Kn[1@t
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 enp0s25
+192.168.0.0     0.0.0.0         255.255.254.0   U     100    0        0 enp0s25
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ scp repore[K[K[K[K[K[K[K[K[K[Kgedit report,txtt[K[K[K[K[K.txt
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ scp report.txt cs18c52@192.168.0.30:27[K[K0302 
+[A
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c52@192.168.0.30's password: 
+
+report.txt                                                   0%    0     0.0KB/s   --:-- ETA
+report.txt                                                 100% 1288     1.3KB/s   00:00    
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ lpwd
+No command 'lpwd' found, did you mean:
+ Command 'lpd' from package 'lpr' (universe)
+ Command 'lpd' from package 'lprng' (universe)
+ Command 'hpwd' from package 'hfsutils' (main)
+ Command 'pwd' from package 'coreutils' (main)
+lpwd: command not found
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ sftp cs18c52@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c52@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> put report.txt
+Uploading report.txt to /home/cs18c52/report.txt
+
+report.txt                                                   0%    0     0.0KB/s   --:-- ETA
+report.txt                                                 100% 1288     1.3KB/s   00:00    
+sftp> 
+sftp> lcd ..
+sftp> lpwd
+Local working directory: /home/s4c2/ceccs18c52/cs232
+sftp> cd 0302
+Can't change directory: "/home/cs18c52/0302" is not a directory
+
+sftp> cd /0302
+Couldn't stat remote file: No such file or directory
+
+sftp> get work.txt
+File "/home/cs18c52/work.txt" not found.
+
+sftp> lcd 0302
+sftp> lpwd
+Local working directory: /home/s4c2/ceccs18c52/cs232/0302
+sftp> get work.txt
+File "/home/cs18c52/work.txt" not found.
+
+sftp> get work.txt.txt[K.txt[K.txt[K.txt[Kr.txte.txtp.txto.txtr.txtt.txt
+Fetching /home/cs18c52/report.txt to report.txt
+
+/home/cs18c52/report.txt                                     0%    0     0.0KB/s   --:-- ETA
+/home/cs18c52/report.txt                                   100% 1288     1.3KB/s   00:00    
+sftp> rm get report.txt[Pe[Pt[P [1@r [1@m 
+Removing /home/cs18c52/report.txt
+sftp> put re[[Kport.txt
+Uploading report.txt to /home/cs18c52/report.txt
+
+report.txt                                                   0%    0     0.0KB/s   --:-- ETA
+report.txt                                                 100% 1288     1.3KB/s   00:00    
+sftp> quit
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ gedit report.txt
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ nc -n 55555
+This is nc from the netcat-openbsd package. An alternative nc is available
+in the netcat-traditional package.
+usage: nc [-46bCDdhjklnrStUuvZz] [-I length] [-i interval] [-O length]
+	  [-P proxy_username] [-p source_port] [-q seconds] [-s source]
+	  [-T toskeyword] [-V rtable] [-w timeout] [-X proxy_protocol]
+	  [-x proxy_address[:port]] [destination] [port]
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ nc -P 192.168.0.88
+This is nc from the netcat-openbsd package. An alternative nc is available
+in the netcat-traditional package.
+usage: nc [-46bCDdhjklnrStUuvZz] [-I length] [-i interval] [-O length]
+	  [-P proxy_username] [-p source_port] [-q seconds] [-s source]
+	  [-T toskeyword] [-V rtable] [-w timeout] [-X proxy_protocol]
+	  [-x proxy_address[:port]] [destination] [port]
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ nc -P 192.168.0.88[Knc -P 192.168.0.88[C[1P 192.168.0.88x 192.168.0.88[C[C[C[C[C[C[C[C[C[C[C[C[C[:3128]
+This is nc from the netcat-openbsd package. An alternative nc is available
+in the netcat-traditional package.
+usage: nc [-46bCDdhjklnrStUuvZz] [-I length] [-i interval] [-O length]
+	  [-P proxy_username] [-p source_port] [-q seconds] [-s source]
+	  [-T toskeyword] [-V rtable] [-w timeout] [-X proxy_protocol]
+	  [-x proxy_address[:port]] [destination] [port]
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ ifconfog
+No command 'ifconfog' found, did you mean:
+ Command 'ifconfig' from package 'net-tools' (main)
+ifconfog: command not found
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ ifconfog[K[Kig
+enp0s25   Link encap:Ethernet  HWaddr 10:78:d2:e0:ae:5a  
+          inet addr:192.168.0.88  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::98e8:ebe9:b7cf:de08/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:143002 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:12013 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:27738539 (27.7 MB)  TX bytes:1943507 (1.9 MB)
+          Interrupt:20 Memory:fbbc0000-fbbe0000 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:25580 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:25580 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1692648 (1.6 MB)  TX bytes:1692648 (1.6 MB)
+
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ nc -l 55555
+#4: Communicating via LAN
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	# NetChat Utility
+	nc IP port	
+
+--------------------------------
+Output: 
+
+
+	# user1$ nc -l 55555
+	
+	# user2$ nc 192.168.0.75 55555
+	
+	Here, user1 and user2 can communicate via the terminal.
+
+-------------------xswsdq
+hey\
+haii
+heloo
+bye
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ gedit repot[Krt.txt
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ gedit report.txt[5Pnc -l 55555[3Pifconfigognc -x 192.168.0.88[:3128][7PP 192.168.0.88[7Pn 55555gedit report.txtsftp cs18c52@192.168.0.30lpwd[Ksftp cs18c52@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c52@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> p[Kls
+0302              2701              examples.desktop  report.txt        
+sftp> 0302
+Invalid command.
+
+sftp> put 2701
+stat 2701: No such file or directory
+
+sftp> rm report.txt
+Removing /home/cs18c52/report.txt
+sftp> rm 2701[K[K[K[K0302
+Removing /home/cs18c52/0302
+sftp> get 0302
+File "/home/cs18c52/0302" not found.
+
+sftp> put 0302
+stat 0302: No such file or directory
+
+sftp> ls
+2701              examples.desktop  
+sftp> lspwd
+Invalid command.
+
+sftp> lpwd
+Local working directory: /home/s4c2/ceccs18c52/cs232/0302
+sftp> ls
+2701              examples.desktop  
+sftp> lcd..
+Invalid command.
+
+sftp> 
+sftp> lcd ..
+sftp> ls
+2701              examples.desktop  
+sftp> lpwd
+Local working directory: /home/s4c2/ceccs18c52/cs232
+sftp> put 0302
+Uploading 0302/ to /home/cs18c52/0302
+0302/ is not a regular file
+
+sftp> lpwd
+Local working directory: /home/s4c2/ceccs18c52/cs232
+sftp> ls
+2701              examples.desktop  
+sftp> lspwdput 0302[7Glpwd[Kput 0302/
+Uploading 0302/ to /home/cs18c52/0302
+0302/ is not a regular file
+
+sftp> ls
+2701              examples.desktop  
+sftp> cd 0302
+Couldn't stat remote file: No such file or directory
+
+sftp> cd 0302[7G[Klc ..
+Invalid command.
+
+sftp> lc ..cd ..
+sftp> lcd .. ..[K[7Gcd 0302
+Couldn't stat remote file: No such file or directory
+
+sftp> mkdir 0302
+sftp> cd 0302
+sftp> ls
+sftp> lpwd
+Local working directory: /home/s4c2/ceccs18c52
+sftp> cd 2[Kcs232
+Couldn't stat remote file: No such file or directory
+
+sftp> ls
+sftp> put cs232
+Uploading cs232/ to /home/cs18c52/0302/cs232
+cs232/ is not a regular file
+
+sftp> lcs[Kd ..
+sftp> lcd ..
+sftp> l[Klcd ..[7Gput cs232[7Gls[Kcd cs232[7Glpwd[K
+Local working directory: /home
+sftp> cd cs[1@lccd cs18c52
+Couldn't change local directory to "cs18c52": No such file or directory
+
+sftp> quit
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/0302[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/0302[00m$ sftp cs18c52@192.168.0.30[9Pgedit report.txt[5Pnc -l 55555[3Pifconfigognc -x 192.168.0.88[:3128][7PP 192.168.0.88[7Pn 55555gedit report.txtsftp cs18c52@192.168.0.30[9Pgedit report.txt[5Pnc -n 55555P 192.168.0.88x 192.168.0.88[:3128]ifconfog[Kignc -l 55555gedit report.txtsftp cs18c52@192.168.0.30[Ksftp cs18c52@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c52@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+0302              2701              examples.desktop  
+sftp> cd 0302
+sftp> lfs[K[Ks
+sftp> cd 2702=1'=[K[K[K[K[K1
+Couldn't stat remote file: No such file or directory
+
+sftp> cd..
+Invalid command.
+
+sftp> l[Klpwd
+Local working directory: /home/s4c2/ceccs18c52/cs232/0302
+sftp> lcd ..
+sftp> cd 2701
+Couldn't stat remote file: No such file or directory
+
+sftp> ls
+sftp> lcd 2701
+sftp> ls
+sftp> lpwd
+Local working directory: /home/s4c2/ceccs18c52/cs232/2701
+sftp> put work.txt
+Uploading work.txt to /home/cs18c52/0302/work.txt
+
+work.txt                                                     0%    0     0.0KB/s   --:-- ETA
+work.txt                                                   100% 8249     8.1KB/s   00:00    
+sftp> put report.txt
+Uploading report.txt to /home/cs18c52/0302/report.txt
+
+report.txt                                                   0%    0     0.0KB/s   --:-- ETA
+report.txt                                                 100%  905     0.9KB/s   00:00    
+sftp> put resolv.confi[K
+stat resolv.conf: No such file or directory
+
+sftp> rm report.txt
+Removing /home/cs18c52/0302/report.txt
+sftp> rm work.txt
+Removing /home/cs18c52/0302/work.txt
+sftp> lcd 0302
+Couldn't change local directory to "0302": No such file or directory
+
+sftp> put resolv.conf
+stat resolv.conf: No such file or directory
+
+sftp> lpwd
+Local working directory: /home/s4c2/ceccs18c52/cs232/2701
+sftp> lcd ..
+sftp> put 02[K302
+Uploading 0302/ to /home/cs18c52/0302/0302
+0302/ is not a regular file
+
+sftp> lpwd
+Local working directory: /home/s4c2/ceccs18c52/cs232
+sftp> cd 0302
+Couldn't stat remote file: No such file or directory
+
+sftp> cd 0302[1@lc
+sftp> put resolv.config
+stat resolv.config: No such file or directory
+
+sftp> put resolv.config\\[K[K[K[K
+Uploading resolv.conf to /home/cs18c52/0302/resolv.conf
+
+resolv.c
