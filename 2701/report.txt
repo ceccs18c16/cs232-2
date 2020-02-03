@@ -2,7 +2,7 @@ CEC CS 18 C52
 Sarath Kumar S
 
 
-1. Sort text files
+1. Sort text files (t1)
  
 
 Program: abc.txt   xyz.txt
@@ -49,7 +49,7 @@ Output: Got the sum of all integers
    
      103
 ------------------------------------------------------------
-5. Task 2
+5. Task 2 (t2)
 
 Input: pdf to text file of s1 result
     
