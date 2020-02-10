@@ -1,0 +1,56 @@
+CEC CS 18 C52
+Sarath Kumar S
+
+--------------------------------
+#1: Scripting Task (t2)
+---------------------------------
+
+
+Input:
+---------------
+
+ #Download KTU Result(PDF)
+
+ #Convert to .txt ( pdftotext -layout a.pdf b.txt )
+
+ #Separate Results ( grep )
+
+ #Compute cgpa ( sed )
+
+ #Count no of failed subjects  
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+
+   cgpa.txt
+
+
+-------------------
+Remarks if any:
+
+
+
+
+-------------------------------------
+#2: Webpage Creation 
+-------------------------------------
+
+Input:
+------------------------------------
+
+        # sample index	
+	    wget http://192.168.0.30/cs17d/cs17d00
+	# To put the page to the server
+	    sftp
+	# To edit the contents of .html file
+	    gedit 	
+
+--------------------------------
+Output: 
+
+	# The page can be viewed at
+            file:///home/s4c2/ceccs18c52/cs232/1002/index.html
+----------------------------------------
+
+
