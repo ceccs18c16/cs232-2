@@ -50,7 +50,7 @@ Input:
 Output: 
 
 	# The page can be viewed at
-            file:///home/s4c2/ceccs18c52/cs232/1002/index.html
+	     http://192.168.0.30/cs18c/cs18c52
 ----------------------------------------
 
 
