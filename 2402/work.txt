@@ -1,0 +1,72 @@
+Script started on Monday 24 February 2020 09:28:09 AM IST
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2402[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2402[00m$ sudo apt-get install vsftpd
+[sudo] password for s4c2: 
+s4c2 is not in the sudoers file.  This incident will be reported.
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2402[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2402[00m$ sudo apt-get upgrade
+[sudo] password for s4c2: 
+s4c2 is not in the sudoers file.  This incident will be reported.
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2402[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2402[00m$ gedit sgp.sh[Ca.sh
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2402[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2402[00m$ gedit sgpa.sh
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2402[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2402[00m$ gedit sgpa.sh
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2402[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2402[00m$ gedit sgpa.sh
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2402[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2402[00m$ gedit sgpa.sh
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2402[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2402[00m$ x[Kchmod u+x sgpa.sh
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2402[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2402[00m$ ./sgpa.sh
+./sgpa.sh: line 108: awk{
+      sgpa=(cgpa1 + cgpa2)/2
+      printf(sgpa)
+       
+    }: No such file or directory
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2402[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2402[00m$ ./sgpa.shchmod u+x sgpa.sh
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2402[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2402[00m$ chmod u+x sgpa.sh[8P./sgpa.shchmod u+x sgpa.sh[4Pgedit[C[C[C[C[C[C[C[C
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2402[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2402[00m$ gedit sgpa.sh[4@chmod u+x[C[C[C[C[C[C[C[C[8P./sgpa.sh
+./sgpa.sh: line 108: awk{
+      sgpa=(cgpa1 + cgpa2)/2
+      printf("%s %0.2f\n",$1,sgpa)
+       
+    }: No such file or directory
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2402[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2402[00m$ ./sgpa.shgedit sgpa.sh
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2402[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2402[00m$ gedit sgpa.sh
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2402[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2402[00m$ gedit sgpa.sh
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2402[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2402[00m$ cs18c52@scs18c52@fcs18c52@tcs18c52@pcs18c52@ cs18c52@[C[C[C[C[C[C[C[C192.168.0.0[K30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c52@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+0302                1002                2701                examples.desktop    
+sftp> ls 0302
+0302/report.txt     0302/resolv.conf    0302/work.txt       
+sftp> ls 2701
+2701/report.txt  2701/work.txt    
+sftp> ls1002
+Invalid command.
+sftp> ls1002 1002
+1002/S1          1002/index.html  1002/report.txt  1002/work.txt    
+sftp> ls 1002/s1
+Can't ls: "/home/cs18c52/1002/s1" not found
+sftp> exit
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2402[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2402[00m$ gedit reo[Kport.txt
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2402[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2402[00m$ firefox index.html
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2402[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2402[00m$ gedit index.html
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2402[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2402[00m$ gedit index.html[2@firefox[C[C[C[C[C[C[C[C[C[C[C
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2402[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2402[00m$ firefox index.html[2Pgedit[C[C[C[C[C[C[C[C[C[C[C
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2402[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2402[00m$ if config
+> if config[C[Cgedit index.html[C[C[2@firefox[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pgedit[C[C[C[C[C[C[C[C[C[C[C[C[C[2@firefox[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pgedit report.txt[C[Csftp cs18c52@192.168.0.30[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K^C
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2402[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2402[00m$ if configgedit index.html[2@firefox[C[C[C[C[C[C[C[C[C[C[C[2Pgedit[C[C[C[C[C[C[C[C[C[C[C[2@firefox[C[C[C[C[C[C[C[C[C[C[C[2Pgedit report.txt
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2402[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2402[00m$ gedit report.txt[7Pif configgedit index.html
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2402[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2402[00m$ gedit index.html[Kgedit index.htmlreport.txt[7Pif configgedit index.html[2@firefox[C[C[C[C[C[C[C[C[C[C[C
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2402[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2402[00m$ firefox index.html[2Pgedit[C[C[C[C[C[C[C[C[C[C[C
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2402[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2402[00m$ gedit index.html[2@firefox[C[C[C[C[C[C[C[C[C[C[C
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2402[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2402[00m$ firefox index.html[2Pgedit[C[C[C[C[C[C[C[C[C[C[C
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2402[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2402[00m$ gedit index.html[2@firefox[C[C[C[C[C[C[C[C[C[C[C
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2402[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2402[00m$ firefox index.html[2Pgedit[C[C[C[C[C[C[C[C[C[C[C
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2402[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2402[00m$ gedit index.html[2@firefox[C[C[C[C[C[C[C[C[C[C[C
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2402[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2402[00m$ cd [K[K[Kgedit report.txt
+]0;s4c2@ceclab2-Veriton-Series: ~/ceccs18c52/cs232/2402[01;32ms4c2@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c52/cs232/2402[00m$ gedit report.txt[Kexit
+exit
+
+Script done on Monday 24 February 2020 11:41:14 AM IST
