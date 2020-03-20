@@ -20,10 +20,10 @@ Command/Shell script/Program name
 --------------------------------
 Output: 
 	
-	# Output of helloworld.pl
+	# Output of hello.pl
 	Hello world
 
-	# Output of add2numbers.pl
+	# Output of addition.pl
 	Enter two numbers
 	3
         7
@@ -76,7 +76,7 @@ Remarks if any:
 -------------------------------------
 
 --------------------------------
-#3: LAMP stack (t8)(2)
+#3: LAMP stack (t8)(3)
 ---------------------------------
 
 Command/Shell script/Program name
