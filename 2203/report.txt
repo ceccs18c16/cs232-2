@@ -1,0 +1,28 @@
+CEC CS 18 C52    22-03-2020
+SARATH KUMAR S
+
+
+--------------------------------
+#1: Linux Installation (t6)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	# ubuntu installation using Wubi (Windows Based Ubuntu Installer)
+       	  Ubuntu 16.04.6 LTS
+
+	
+Output: 
+	
+	# Photos 1-5 (.jpg , .png) shows various steps of installation
+	
+	# Ubuntu 16.04.6 LTS is installed alongside windows 
+
+-------------------
+Remarks if any:
+	
+	
+
+-------------------------------------
+-------------------------------------
