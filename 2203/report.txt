@@ -1,0 +1,55 @@
+CEC CS 18 C52
+SARATH KUMAR S
+
+--------------------------------
+#1: Linux Installation (t6)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	# ubuntu installation using Wubi (Windows Based Ubuntu Installer)
+       	  Ubuntu 16.04.6 LTS
+
+	
+Output: 
+	
+	# Photos 1-5 (.jpg , .png) shows various steps of installation
+	
+	# Ubuntu 16.04.6 LTS is installed alongside windows 
+
+---------------------------------------------------
+
+
+---------------------------------------------------
+#2: Setting up http and ftp servers (t7)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	# install ftp server --> sudo apt-get install vsftpd
+	
+	# edit server configuration --> sudo nano /etc/vsftpd.conf
+	
+	# connect to ftp on local server --> fpt localhost	
+	
+	# install apache2 --> sudo apt-get install apache2
+	
+	# edit HTML file --> sudo nano /var/www/html/index.html
+
+--------------------------------
+Output: 
+	
+	# ftp server available at 10.0.2.15 
+	
+	# Apache http server --> sample.png (screenshot)	
+
+-------------------
+Remarks if any:
+
+
+
+-------------------------------------
+-------------------------------------
+
