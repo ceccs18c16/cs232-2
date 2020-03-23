@@ -1,0 +1,47 @@
+CEC CS 18 C52
+SARATH KUMAR S
+
+--------------------------------
+#1: Kernel Compilation (t8)(4)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+       -Downloading the kernel
+	  $ wget https://git.kernel.org/torvalds/t/linux-4.17-rc2.tar.gz
+      
+       -Installing requirements
+          $ sudo apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison
+      
+       -Extracting the source
+          $ tar xvzf linux-4.17-rc2.tar.gz
+       
+       -Configuring the kernel
+          $ cp /boot/config-$(uname -r) .config
+
+       -Compiling and installing
+          $ make modules_install (install modules)
+          $ sudo make install (install kernel)
+
+       -Enable the kernel for boot
+          $ sudo update-initramfs -c -k 4.17-rc2
+
+       -Verify the kernel
+          $ gpg --verify linux-4.17.tar.sign
+
+
+	
+--------------------------------
+Output: 
+
+	-Compiled Kernel at /linux-4.17
+	Screenshot of the compiled files is attached - kernel.png
+
+-------------------
+Remarks if any:
+
+
+
+-------------------------------------
+-------------------------------------
