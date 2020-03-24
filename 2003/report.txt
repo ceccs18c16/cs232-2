@@ -1,8 +1,56 @@
-CEC CS 18 C52  20-03-2020
-Sarath Kumar S
+CEC CS 18 C52 
+SARATH KUMAR S
 
 ---------------------------------
-#1: Perl (t8) (2)
+#1: Package management (t8)(1)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+		
+	- Install a package
+            $ sudo apt install nmap
+       
+        - Remove a Package
+            $ sudo apt remove nmap
+        
+        - Update the Package Index
+            $ sudo apt update
+
+        - Upgrade Package
+            $ sudo apt upgrade
+
+	- list all packages installed on the system
+	    $ dpkg -l
+
+	- list the files installed by a package
+	    $ dpkg -L ufw
+
+	- install the apticron package
+	    $ sudo apt install apticron
+
+	- List all installed packages
+	    $ sudo apt list > packages.txt 
+
+--------------------------------
+Input: 
+
+	
+
+--------------------------------
+Output: 
+	
+	- List of installed packages : packages.txt
+
+-------------------
+Remarks if any:
+	
+	
+
+-------------------------------------
+-------------------------------------
+---------------------------------
+#2: Perl (t8) (2)
 ---------------------------------
 
 Command/Shell script/Program name
@@ -20,10 +68,10 @@ Command/Shell script/Program name
 --------------------------------
 Output: 
 	
-	# Output of helloworld.pl
+	# Output of hello.pl
 	Hello world
 
-	# Output of add2numbers.pl
+	# Output of addition.pl
 	Enter two numbers
 	3
         7
@@ -42,41 +90,9 @@ Remarks if any:
 
 -------------------------------------
 -------------------------------------
---------------------------------
-#2: Package management (t8)(1)
----------------------------------
-
-Command/Shell script/Program name
----------------------------------
-	
-	# Update list of available packages
-	sudo apt update
-	
-	# Install a package (eg: nmap)
-	sudo apt-get install nmap
-	
-	# Remove a package
-	sudo apt remove nmap
-	
-	# List all installed packages
-	sudo apt list > packages.txt
-	
---------------------------------
-Output: 
-	
-	# List of installed packages
-	packages.txt
-
--------------------
-Remarks if any:
-	
-	
-
--------------------------------------
--------------------------------------
 
 --------------------------------
-#3: LAMP stack (t8)(2)
+#3: LAMP stack (t8)(3)
 ---------------------------------
 
 Command/Shell script/Program name
