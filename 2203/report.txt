@@ -28,15 +28,20 @@ Output:
 Command/Shell script/Program name
 ---------------------------------
 	
-	# install ftp server --> sudo apt-get install vsftpd
+	 - install ftp server 
+	      $ sudo apt-get install vsftpd
 	
-	# edit server configuration --> sudo nano /etc/vsftpd.conf
+	 - edit server configuration 
+	      $ sudo nano /etc/vsftpd.conf
 	
-	# connect to ftp on local server --> fpt localhost	
+	 - connect to ftp on local server
+	      $ fpt localhost	
 	
-	# install apache2 --> sudo apt-get install apache2
+	 - install apache2 
+	      $ sudo apt-get install apache2
 	
-	# edit HTML file --> sudo nano /var/www/html/index.html
+	 - edit HTML file
+	      $ sudo nano /var/www/html/index.html
 
 --------------------------------
 Output: 
