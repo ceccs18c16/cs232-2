@@ -1,0 +1,89 @@
+CEC CS 18 C52   
+SARATH KUMAR S  
+
+
+ip addr: 116.68.104.162
+
+-----------------------------------------------
+#1: Shell Programming (s4)
+-----------------------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	s4.sh
+
+--------------------------------
+Output: 
+
+	1. Currently logged user and his login name 
+	2. Current shell 
+	3. Home directory 
+	4. Operating system type 
+	5. Current path setting 
+	6. Current working directory 
+	7. Users currently logged in 
+
+-------------------
+Remarks if any:
+
+
+
+-------------------------------------
+-------------------------------------
+
+--------------------------------
+#2: Shell Programming (s5)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+		
+	s5.sh
+
+--------------------------------
+Output: 
+
+	1. Your OS and version, release number, kernel version 
+	2. All available shells 
+	3. Computer CPU information like processor type, speed etc 
+	4. Memory information 
+	5. Hard disk information like size of hard-disk, cache memory, model etc 
+	6. File system (Mounted) 
+
+-------------------
+Remarks if any:
+
+	
+
+
+
+-------------------------------------
+-------------------------------------
+
+--------------------------------
+#3: Menu driven calculator (s6)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+		
+	s6.sh
+
+--------------------------------
+Output: 
+
+	A menu driven calculator with following functions :
+
+		1.  Addition 
+		2.  Subtraction 
+		3.  Multiplication 
+		4.  Division 
+		5.  Modulus 
+	
+-------------------
+Remarks if any:
+
+	
+-------------------------------------
+------------------------------------

@@ -1,0 +1,447 @@
+Script started on Sun 05 Apr 2020 11:51:10 AM IST
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ gedit s4.sh
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ chmod +x s4.sh
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ ./s4.sh
+Your username : sarath
+*************************************************
+Currently logged on users:
+sarath   tty7         2020-04-05 11:04 (:0)
+*************************************************
+Home directory : /home/sarath
+*************************************************
+Operating System Type:
+GNU/Linux
+*************************************************
+Current path setting : /home/sarath/bin:/home/sarath/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+*************************************************
+current working directory :
+/home/sarath/0504
+*************************************************
+Currently logged on users:
+sarath   tty7         2020-04-05 11:04 (:0)
+*************************************************
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ gedit s5.sh
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ gedit s5.sh[4P./s4.shchmod +x s4.sh[1P.sh5.sh
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ chmod +x s5.sh[3Pgedit[C[C[C[C[C[C[4P./s4.sh[1P.sh5.sh
+Available Shells: 
+# /etc/shells: valid login shells
+/bin/sh
+/bin/dash
+/bin/bash
+/bin/rbash
+--------------------------------------------------------------------
+Computer CPU Information:
+--------------------------------------------------------------------
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 37
+model name	: Intel(R) Core(TM) i5 CPU       M 450  @ 2.40GHz
+stepping	: 5
+microcode	: 0x7
+cpu MHz		: 1374.864
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 11
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe sysca
+ll nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 s
+sse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 popcnt lahf_lm pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid dtherm ida arat flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 4788.21
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 37
+[7m--More--[27mmodel name	: Intel(R) Core(TM) i5 CPU       M 450  @ 2.40GHz
+[7m--More--[27mstepping	: 5
+[7m--More--[27mmicrocode	: 0x7
+[7m--More--[27m[Kcpu MHz		: 1399.267
+[7m--More--[27mcache size	: 3072 KB
+[7m--More--[27mphysical id	: 0
+[7m--More--[27msiblings	: 4
+[7m--More--[27m[Kcore id		: 2
+[7m--More--[27mcpu cores	: 2
+[7m--More--[27m[Kapicid		: 4
+[7m--More--[27minitial apicid	: 4
+[7m--More--[27m[Kfpu		: yes
+[7m--More--[27mfpu_exception	: yes
+[7m--More--[27mcpuid level	: 11
+[7m--More--[27m[Kwp		: yes
+[7m--More--[27m[Kflags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe sysca
+[7m--More--[27mll nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 s
+[7m--More--[27msse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 popcnt lahf_lm pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid dtherm ida arat flush_l1d
+[7m--More--[27m[Kbugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+[7m--More--[27mbogomips	: 4788.21
+[7m--More--[27mclflush size	: 64
+[7m--More--[27mcache_alignment	: 64
+[7m--More--[27maddress sizes	: 36 bits physical, 48 bits virtual
+[7m--More--[27mpower management:
+[7m--More--[27m[K
+[7m--More--[27mprocessor	: 2
+[7m--More--[27mvendor_id	: GenuineIntel
+[7m--More--[27mcpu family	: 6
+[7m--More--[27m[Kmodel		: 37
+[7m--More--[27mmodel name	: Intel(R) Core(TM) i5 CPU       M 450  @ 2.40GHz
+[7m--More--[27mstepping	: 5
+[7m--More--[27mmicrocode	: 0x7
+[7m--More--[27m[Kcpu MHz		: 1483.622
+[7m--More--[27mcache size	: 3072 KB
+[7m--More--[27mphysical id	: 0
+[7m--More--[27msiblings	: 4
+[7m--More--[27m[Kcore id		: 0
+[7m--More--[27mcpu cores	: 2
+[7m--More--[27m[Kapicid		: 1
+[7m--More--[27minitial apicid	: 1
+[7m--More--[27m[Kfpu		: yes
+[7m--More--[27mfpu_exception	: yes
+[7m--More--[27mcpuid level	: 11
+[7m--More--[27m[Kwp		: yes
+[7m--More--[27m[Kflags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe sysca
+[7m--More--[27mll nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 s
+[7m--More--[27msse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 popcnt lahf_lm pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid dtherm ida arat flush_l1d
+[7m--More--[27m[Kbugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+[7m--More--[27mbogomips	: 4788.21
+[7m--More--[27mclflush size	: 64
+[7m--More--[27mcache_alignment	: 64
+[7m--More--[27maddress sizes	: 36 bits physical, 48 bits virtual
+[7m--More--[27mpower management:
+[7m--More--[27m[K
+[7m--More--[27mprocessor	: 3
+[7m--More--[27mvendor_id	: GenuineIntel
+[7m--More--[27mcpu family	: 6
+[7m--More--[27m[Kmodel		: 37
+[7m--More--[27mmodel name	: Intel(R) Core(TM) i5 CPU       M 450  @ 2.40GHz
+[7m--More--[27mstepping	: 5
+[7m--More--[27mmicrocode	: 0x7
+[7m--More--[27m[Kcpu MHz		: 1416.567
+[7m--More--[27mcache size	: 3072 KB
+[7m--More--[27mphysical id	: 0
+[7m--More--[27msiblings	: 4
+[7m--More--[27m[Kcore id		: 2
+[7m--More--[27mcpu cores	: 2
+[7m--More--[27m[Kapicid		: 5
+[7m--More--[27minitial apicid	: 5
+[7m--More--[27m[Kfpu		: yes
+[7m--More--[27mfpu_exception	: yes
+[7m--More--[27mcpuid level	: 11
+[7m--More--[27m[Kwp		: yes
+[7m--More--[27m[Kflags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe sysca
+[7m--More--[27mll nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 s
+[7m--More--[27msse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 popcnt lahf_lm pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid dtherm ida arat flush_l1d
+[7m--More--[27m[Kbugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+[7m--More--[27mbogomips	: 4788.21
+[7m--More--[27mclflush size	: 64
+[7m--More--[27mcache_alignment	: 64
+[7m--More--[27maddress sizes	: 36 bits physical, 48 bits virtual
+[7m--More--[27mpower management:
+[7m--More--[27m[K
+[7m--More--[27m--------------------------------------------------------------------
+[7m--More--[27mComputer Memory Information:
+[7m--More--[27m--------------------------------------------------------------------
+[7m--More--[27mMemTotal:        2932928 kB
+[7m--More--[27mMemFree:          199932 kB
+[7m--More--[27mMemAvailable:    1339212 kB
+[7m--More--[27mBuffers:          413088 kB
+[7m--More--[27mCached:          1104176 kB
+[7m--More--[27mSwapCached:         2072 kB
+[7m--More--[27mActive:          1425772 kB
+[7m--More--[27mInactive:        1116704 kB
+[7m--More--[27mActive(anon):     882348 kB
+[7m--More--[27mInactive(anon):   420856 kB
+[7m--More--[27mActive(file):     543424 kB
+[7m--More--[27mInactive(file):   695848 kB
+[7m--More--[27mUnevictable:        2628 kB
+[7m--More--[27mMlocked:              48 kB
+[7m--More--[27mSwapTotal:        262140 kB
+[7m--More--[27mSwapFree:         239356 kB
+[7m--More--[27mDirty:                28 kB
+[7m--More--[27mWriteback:             0 kB
+[7m--More--[27mAnonPages:       1026076 kB
+[7m--More--[27mMapped:           275804 kB
+[7m--More--[27mShmem:            275388 kB
+[7m--More--[27mSlab:             105612 kB
+[7m--More--[27mSReclaimable:      69804 kB
+[7m--More--[27mSUnreclaim:        35808 kB
+[7m--More--[27mKernelStack:        9912 kB
+[7m--More--[27mPageTables:        34720 kB
+[7m--More--[27mNFS_Unstable:          0 kB
+[7m--More--[27mBounce:                0 kB
+[7m--More--[27mWritebackTmp:          0 kB
+[7m--More--[27mCommitLimit:     1728604 kB
+[7m--More--[27mCommitted_AS:    4549536 kB
+[7m--More--[27mVmallocTotal:   34359738367 kB
+[7m--More--[27mVmallocUsed:           0 kB
+[7m--More--[27mVmallocChunk:          0 kB
+[7m--More--[27mHardwareCorrupted:     0 kB
+[7m--More--[27mAnonHugePages:         0 kB
+[7m--More--[27mShmemHugePages:        0 kB
+[7m--More--[27mShmemPmdMapped:        0 kB
+[7m--More--[27mCmaTotal:              0 kB
+[7m--More--[27mCmaFree:               0 kB
+[7m--More--[27mHugePages_Total:       0
+[7m--More--[27mHugePages_Free:        0
+[7m--More--[27mHugePages_Rsvd:        0
+[7m--More--[27mHugePages_Surp:        0
+[7m--More--[27mHugepagesize:       2048 kB
+[7m--More--[27mDirectMap4k:      261068 kB
+[7m--More--[27mDirectMap2M:     2742272 kB
+[7m--More--[27m--------------------------------------------------------------------
+[7m--More--[27mFile System (Mount):
+[7m--More--[27m--------------------------------------------------------------------
+[7m--More--[27msysfs /sys sysfs rw,nosuid,nodev,noexec,relatime 0 0
+[7m--More--[27mproc /proc proc rw,nosuid,nodev,noexec,relatime 0 0
+[7m--More--[27mudev /dev devtmpfs rw,nosuid,relatime,size=1435968k,nr_inodes=358992,mode=755 0 0
+[7m--More--[27mdevpts /dev/pts devpts rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000 0 0
+[7m--More--[27mtmpfs /run tmpfs rw,nosuid,noexec,relatime,size=293296k,mode=755 0 0
+[7m--More--[27m/dev/sda4 /host fuseblk rw,relatime,user_id=0,group_id=0,allow_other,blksize=4096 0 0
+[7m--More--[27m/dev/loop0 / ext4 rw,relatime,errors=remount-ro,data=ordered 0 0
+[7m--More--[27msecurityfs /sys/kernel/security securityfs rw,nosuid,nodev,noexec,relatime 0 0
+[7m--More--[27mtmpfs /dev/shm tmpfs rw,nosuid,nodev 0 0
+[7m--More--[27mtmpfs /run/lock tmpfs rw,nosuid,nodev,noexec,relatime,size=5120k 0 0
+[7m--More--[27mtmpfs /sys/fs/cgroup tmpfs ro,nosuid,nodev,noexec,mode=755 0 0
+[7m--More--[27mcgroup /sys/fs/cgroup/systemd cgroup rw,nosuid,nodev,noexec,relatime,xattr,release_agent=/lib/systemd/systemd-cgroups-agent,name=systemd 0 0
+[7m--More--[27mpstore /sys/fs/pstore pstore rw,nosuid,nodev,noexec,relatime 0 0
+[7m--More--[27mcgroup /sys/fs/cgroup/devices cgroup rw,nosuid,nodev,noexec,relatime,devices 0 0
+[7m--More--[27mcgroup /sys/fs/cgroup/blkio cgroup rw,nosuid,nodev,noexec,relatime,blkio 0 0
+[7m--More--[27mcgroup /sys/fs/cgroup/memory cgroup rw,nosuid,nodev,noexec,relatime,memory 0 0
+[7m--More--[27mcgroup /sys/fs/cgroup/perf_event cgroup rw,nosuid,nodev,noexec,relatime,perf_event 0 0
+[7m--More--[27mcgroup /sys/fs/cgroup/cpu,cpuacct cgroup rw,nosuid,nodev,noexec,relatime,cpu,cpuacct 0 0
+[7m--More--[27mcgroup /sys/fs/cgroup/freezer cgroup rw,nosuid,nodev,noexec,relatime,freezer 0 0
+[7m--More--[27mcgroup /sys/fs/cgroup/hugetlb cgroup rw,nosuid,nodev,noexec,relatime,hugetlb 0 0
+[7m--More--[27mcgroup /sys/fs/cgroup/net_cls,net_prio cgroup rw,nosuid,nodev,noexec,relatime,net_cls,net_prio 0 0
+[7m--More--[27mcgroup /sys/fs/cgroup/rdma cgroup rw,nosuid,nodev,noexec,relatime,rdma 0 0
+[7m--More--[27mcgroup /sys/fs/cgroup/cpuset cgroup rw,nosuid,nodev,noexec,relatime,cpuset 0 0
+[7m--More--[27mcgroup /sys/fs/cgroup/pids cgroup rw,nosuid,nodev,noexec,relatime,pids 0 0
+[7m--More--[27msystemd-1 /proc/sys/fs/binfmt_misc autofs rw,relatime,fd=29,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=15366 0 0
+[7m--More--[27mmqueue /dev/mqueue mqueue rw,relatime 0 0
+[7m--More--[27mdebugfs /sys/kernel/debug debugfs rw,relatime 0 0
+[7m--More--[27mhugetlbfs /dev/hugepages hugetlbfs rw,relatime,pagesize=2M 0 0
+[7m--More--[27mfusectl /sys/fs/fuse/connections fusectl rw,relatime 0 0
+[7m--More--[27mconfigfs /sys/kernel/config configfs rw,relatime 0 0
+[7m--More--[27mtmpfs /run/user/1000 tmpfs rw,nosuid,nodev,relatime,size=293296k,mode=700,uid=1000,gid=1000 0 0
+[7m--More--[27mgvfsd-fuse /run/user/1000/gvfs fuse.gvfsd-fuse rw,nosuid,nodev,relatime,user_id=1000,group_id=1000 0 0
+[7m--More--[27m/dev/sda2 /media/sarath/7A5EF5C15EF5766B fuseblk rw,nosuid,nodev,relatime,user_id=0,group_id=0,default_permissions,allow_other,blksize=4096 0 0
+[7m--More--[27m]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ 
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ 
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ 
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ 
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ 
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ 
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ 
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ 
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ 
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ 
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ 
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ 
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ 
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ 
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ 
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ 
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ 
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ 
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ 
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ 
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ ./s5.sh
+./s5.sh: line 4: [: /etc/lsb-release: binary operator expected
+Available Shells: 
+# /etc/shells: valid login shells
+/bin/sh
+/bin/dash
+/bin/bash
+/bin/rbash
+--------------------------------------------------------------------
+Computer CPU Information:
+--------------------------------------------------------------------
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 37
+model name	: Intel(R) Core(TM) i5 CPU       M 450  @ 2.40GHz
+stepping	: 5
+microcode	: 0x7
+cpu MHz		: 1531.000
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 11
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe sysca
+ll nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 s
+sse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 popcnt lahf_lm pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid dtherm ida arat flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 4788.21
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 37
+[7m--More--[27m
+[1]+  Stopped                 ./s5.sh
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ ./s5.sh
+OS: DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=16.04
+DISTRIB_CODENAME=xenial
+DISTRIB_DESCRIPTION="Ubuntu 16.04.6 LTS"
+Available Shells: 
+# /etc/shells: valid login shells
+/bin/sh
+/bin/dash
+/bin/bash
+/bin/rbash
+--------------------------------------------------------------------
+Computer CPU Information:
+--------------------------------------------------------------------
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 37
+model name	: Intel(R) Core(TM) i5 CPU       M 450  @ 2.40GHz
+stepping	: 5
+microcode	: 0x7
+cpu MHz		: 1436.065
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 11
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe sysca
+ll nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 s
+sse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 popcnt lahf_lm pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid dtherm ida arat flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 4788.21
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+[7m--More--[27m
+[2]+  Stopped                 ./s5.sh
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ ./s5.shchmod +x s5.sh[3Pgedit[C[C[C[C[C[C[4P./s4.shgedit s5.sh
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ gedit s5.sh[1P.sh6.sh
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ chmod +x s6.sh
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ ./s6.sh
+Enter Two numbers : 
+3
+6
+Enter Choice :
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+2
+Result : -3
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ ./s6.sh
+Enter Two numbers : 
+46
+3 23
+Enter Choice :
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+5
+Result : 0
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ ./s6.sh
+Enter Two numbers : 
+43
+65 
+Enter Choice :
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+4 6
+Result : 
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ ./s6.sh
+Enter Two numbers : 
+4
+0
+Enter Choice :
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+5
+Runtime error (func=(main), adr=5): Modulo by zero
+Result : 
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ ./s6.sh
+Enter Two numbers : 
+45
+7
+Enter Choice :
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+4
+Result : 6.42
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ gedit report.txt
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ gedit report.txt[9P./s6.shchmod +x s6.sh[3Pgedit[C[C[C[C[C[C5.sh[4P./s5.shchmod +x s5.sh[3Pgedit[C[C[C[C[C[C[4P./s4.shchmod +x s4.sh[3Pgedit[C[C[C[C[C[Cip.txtdig[K TXT +short o-o.myaddr.l.google.com @ns1.google.com[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4P+short myip.opendns.com @resolver1.opendns.com[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cifconfig[Kpconfigssh cs18c52@14.139.189.217[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ftp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cconvert -resize 50% 3.jpg 3.jpg2.jpg 2.jpg4.jpg 4.jpg3.jpg 3.jpg2.jpg 2.jpg1.jpg 1.jpg[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd Task6[K 6sftp cs18c52@14.139.189.217[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pcd Task 6[1P6onvert -resize 50% 1.jpg 1.jpg2.jpg 2.jpg3.jpg 3.jpg4.jpg 4.jpg2.jpg 2.jpg3.jpg 3.jpg[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Psftp cs18c52@14.139.189.217[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Psh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cipconfig[Kfconfigdig +short myip.opendns.com @resolver1.opendns.com[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CTXT +short o-o.myaddr.l.google.com @ns1.google.com[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K TXT +short o-o.myaddr.l.google.com @ns1.google.com[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4P+short myip.opendns.com @resolver1.opendns.com
+116.68.104.162
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ EXIT[K[K[K[Ksftp cs18c52@4.139.189.217[C[C[C14.139.189.217
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c52@14.139.189.217's password: 
+Connected to 14.139.189.217.
+sftp> ls\[K
+0203                0302                1002                2003                2203                2303                2402                
+2403                2701                examples.desktop    
+sftp> mkdir 0504
+sftp> cd 0504
+sftp> put s4.sh
+Uploading s4.sh to /home/cs18c52/0504/s4.sh
+s4.sh                                                                                                          0%    0     0.0KB/s   --:-- ETAs4.sh                                                                                                        100%  414     0.4KB/s   00:01    
+sftp> put s5.sh
+Uploading s5.sh to /home/cs18c52/0504/s5.sh
+s5.sh                                                                                                          0%    0     0.0KB/s   --:-- ETAs5.sh                                                                                                        100% 2398     2.3KB/s   00:00    
+sftp> put s6.sh
+Uploading s6.sh to /home/cs18c52/0504/s6.sh
+s6.sh                                                                                                          0%    0     0.0KB/s   --:-- ETAs6.sh                                                                                                        100%  496     0.5KB/s   00:00    
+sftp> put report.txt
+Uploading report.txt to /home/cs18c52/0504/report.txt
+report.txt                                                                                                     0%    0     0.0KB/s   --:-- ETAreport.txt                                                                                                   100% 1710     1.7KB/s   00:00    
+sftp> exit
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ exit
+exit
+There are stopped jobs.
+]0;sarath@ubuntu: ~/0504[01;32msarath@ubuntu[00m:[01;34m~/0504[00m$ exit
+exit
+
+Script done on Sun 05 Apr 2020 12:24:35 PM IST
