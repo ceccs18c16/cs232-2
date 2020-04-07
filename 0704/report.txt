@@ -35,7 +35,7 @@ Remarks if any:
 
 
 --------------------------------
-#1: Kill process (s9)
+#2: Kill process (s9)
 ---------------------------------
 
 Command/Shell script/Program name
