@@ -1,0 +1,68 @@
+CEC CS 18 C52
+SARATH KUMAR S
+
+ipaddr: 116.68.104.114
+
+--------------------------------
+#1: Add Names Script (s7)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+		
+	addnames.sh
+
+--------------------------------
+Input: 
+	
+	- Here the script will check if "filename" exists and if it does the script will check if "username" is in that file.
+	- If file doesn't exist it will print error message
+	- If username is not in file it will add the name to the file
+	
+		./addnames.sh filename username
+
+--------------------------------
+Output:
+
+        Screenshot -> s7.png
+	
+-------------------
+Remarks if any:
+
+	
+-------------------------------------
+-------------------------------------
+
+
+--------------------------------
+#1: Kill process (s9)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+		
+	killprocess.sh
+	install.sh
+
+--------------------------------
+Input:
+
+	$ nano /root/myscript/kill-process/killprocess.config
+	$ bash killprocess.sh dry
+	$ bash killprocess.sh dry top
+	$ bash killprocess.sh kill top cpu
+	$ bash killprocess.sh dry ps mem
+	$ bash killprocess.sh kill ps mem
+	
+--------------------------------
+Output:
+
+	Screenshot -> s9.png	
+-------------------
+Remarks if any:
+
+	
+-------------------------------------
+-------------------------------------
+
+

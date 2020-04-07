@@ -1,0 +1,372 @@
+Script started on Tue 07 Apr 2020 11:55:41 AM IST
+
+]0;sarath@ubuntu: ~[01;32msarath@ubuntu[00m:[01;34m~[00m$ cd /root/myscript[1Proot/myscript
+]0;sarath@ubuntu: ~/root/myscript[01;32msarath@ubuntu[00m:[01;34m~/root/myscript[00m$ V[Kgit clone https://github.com/padosoft/kill-proces 
+s.git
+fatal: destination path 'kill-process' already exists and is not an empty directory.
+]0;sarath@ubuntu: ~/root/myscript[01;32msarath@ubuntu[00m:[01;34m~/root/myscript[00m$ git clone https://github.com/padosoft/kill-process
+s.git
+Cloning into 'kill-process'...
+remote: Enumerating objects: 55, done.[K
+Unpacking objects:   1% (1/55)   
+Unpacking objects:   3% (2/55)   
+Unpacking objects:   5% (3/55)   
+Unpacking objects:   7% (4/55)   
+Unpacking objects:   9% (5/55)   
+Unpacking objects:  10% (6/55)   
+Unpacking objects:  12% (7/55)   
+Unpacking objects:  14% (8/55)   
+Unpacking objects:  16% (9/55)   
+Unpacking objects:  18% (10/55)   
+Unpacking objects:  20% (11/55)   
+Unpacking objects:  21% (12/55)   
+Unpacking objects:  23% (13/55)   
+Unpacking objects:  25% (14/55)   
+Unpacking objects:  27% (15/55)   
+Unpacking objects:  29% (16/55)   
+Unpacking objects:  30% (17/55)   
+Unpacking objects:  32% (18/55)   
+Unpacking objects:  34% (19/55)   
+Unpacking objects:  36% (20/55)   
+Unpacking objects:  38% (21/55)   
+Unpacking objects:  40% (22/55)   
+Unpacking objects:  41% (23/55)   
+Unpacking objects:  43% (24/55)   
+Unpacking objects:  45% (25/55)   
+Unpacking objects:  47% (26/55)   
+Unpacking objects:  49% (27/55)   
+Unpacking objects:  50% (28/55)   
+Unpacking objects:  52% (29/55)   
+remote: Total 55 (delta 0), reused 0 (delta 0), pack-reused 55[K
+Unpacking objects:  54% (30/55)   
+Unpacking objects:  56% (31/55)   
+Unpacking objects:  58% (32/55)   
+Unpacking objects:  60% (33/55)   
+Unpacking objects:  61% (34/55)   
+Unpacking objects:  63% (35/55)   
+Unpacking objects:  65% (36/55)   
+Unpacking objects:  67% (37/55)   
+Unpacking objects:  69% (38/55)   
+Unpacking objects:  70% (39/55)   
+Unpacking objects:  72% (40/55)   
+Unpacking objects:  74% (41/55)   
+Unpacking objects:  76% (42/55)   
+Unpacking objects:  78% (43/55)   
+Unpacking objects:  80% (44/55)   
+Unpacking objects:  81% (45/55)   
+Unpacking objects:  83% (46/55)   
+Unpacking objects:  85% (47/55)   
+Unpacking objects:  87% (48/55)   
+Unpacking objects:  89% (49/55)   
+Unpacking objects:  90% (50/55)   
+Unpacking objects:  92% (51/55)   
+Unpacking objects:  94% (52/55)   
+Unpacking objects:  96% (53/55)   
+Unpacking objects:  98% (54/55)   
+Unpacking objects: 100% (55/55)   
+Unpacking objects: 100% (55/55), done.
+Checking connectivity... done.
+]0;sarath@ubuntu: ~/root/myscript[01;32msarath@ubuntu[00m:[01;34m~/root/myscript[00m$ cd kill-process
+]0;sarath@ubuntu: ~/root/myscript/kill-process[01;32msarath@ubuntu[00m:[01;34m~/root/myscript/kill-process[00m$ chmod +x killprocess.sh
+]0;sarath@ubuntu: ~/root/myscript/kill-process[01;32msarath@ubuntu[00m:[01;34m~/root/myscript/kill-process[00m$ cp /root/myscript/kill-process/killp 
+rocess.config.template /root/myscript/kill-process/killprocess.config 
+cp: failed to access '/root/myscript/kill-process/killprocess.config': Permission denied
+]0;sarath@ubuntu: ~/root/myscript/kill-process[01;32msarath@ubuntu[00m:[01;34m~/root/myscript/kill-process[00m$ cp /root/myscript/kill-process/killpr
+rocess.config.template /root/myscript/kill-process/killprocess.config [A[13Phmod +x killprocess.sh
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp /root/myscript/kill-process/killpr
+rocess.config.template /root/myscript/kill-process/killprocess.config 
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccp /root/myscript/kill-process/killpr
+rocess.config.template /root/myscript/kill-process/killprocess.config [A[13Phmod +x killprocess.sh
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp /root/myscript/kill-process/killpr
+rocess.config.template /root/myscript/kill-process/killprocess.config 
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/root/myscript/kill-process/killpro[1P[A
+]0;sarath@ubuntu: ~/root/myscript/kill-process[01;32msarath@ubuntu[00m:[01;34m~/root/myscript/kill-process[00m$ [C[Croot/myscript/kill-process/killproc[1P[A
+]0;sarath@ubuntu: ~/root/myscript/kill-process[01;32msarath@ubuntu[00m:[01;34m~/root/myscript/kill-process[00m$ [C[C root/myscript/kill-process/killpro[1@c[A
+]0;sarath@ubuntu: ~/root/myscript/kill-process[01;32msarath@ubuntu[00m:[01;34m~/root/myscript/kill-process[00m$ [C[C[C
+
+
+cp: failed to access '/root/myscript/kill-process/killprocess.config': Permission denied
+]0;sarath@ubuntu: ~/root/myscript/kill-process[01;32msarath@ubuntu[00m:[01;34m~/root/myscript/kill-process[00m$ cp root/myscript/kill-process/killpro
+ocess.config.template /root/myscript/kill-process/killprocess.config [1P
+cp: cannot stat 'root/myscript/kill-process/killprocess.config.template': No such file or directory
+]0;sarath@ubuntu: ~/root/myscript/kill-process[01;32msarath@ubuntu[00m:[01;34m~/root/myscript/kill-process[00m$ 
+[K]0;sarath@ubuntu: ~/root/myscript/kill-process[01;32msarath@ubuntu[00m:[01;34m~/root/myscript/kill-process[00m$ cp /root/myscript/kill-process/killprocess.config.template /root/myscript/kill-process/killprocess. 
+config 
+cp: failed to access '/root/myscript/kill-process/killprocess.config': Permission denied
+]0;sarath@ubuntu: ~/root/myscript/kill-process[01;32msarath@ubuntu[00m:[01;34m~/root/myscript/kill-process[00m$ cp /root/myscript/kill-process/killprocess.config.template /root/myscript/kill-process/killprocess.c
+config [A
+]0;sarath@ubuntu: ~/root/myscript/kill-process[01;32msarath@ubuntu[00m:[01;34m~/root/myscript/kill-process[00m$ [K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..
+]0;sarath@ubuntu: ~/root/myscript[01;32msarath@ubuntu[00m:[01;34m~/root/myscript[00m$ cd ..
+]0;sarath@ubuntu: ~/root[01;32msarath@ubuntu[00m:[01;34m~/root[00m$ cd ..
+]0;sarath@ubuntu: ~[01;32msarath@ubuntu[00m:[01;34m~[00m$ cd ..p /root/myscript/kill-process/killprocess.config.template /root/myscript/kill-process/killprocess.config 
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Proot/myscript/kill-process/killprocess.config.template [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2@/root/myscript/kill-process/killprocess.config.template /[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd ..[Kp /root/myscript/kill-process/killprocess.config.template /root/myscript/kill-process/killprocess.config 
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Proot/myscript/kill-process/killprocess.config.template [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2@/root/myscript/kill-process/killprocess.config.template /[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+cp: failed to access '/root/myscript/kill-process/killprocess.config': Permission denied
+]0;sarath@ubuntu: ~[01;32msarath@ubuntu[00m:[01;34m~[00m$ cp /root/myscript/kill-process/killprocess.config.template /root/myscript/kill-process/killprocess.config 
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd ..[Kp /root/myscript/kill-process/killprocess.config.template /root/myscript/kill-process/killprocess.config 
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Proot/myscript/kill-process/killprocess.config.template [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;sarath@ubuntu: ~[01;32msarath@ubuntu[00m:[01;34m~[00m$ nano /root/myscript/kill-process/killprocess.config
+[?1049h[1;43r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[41;44H(B[0;7m[ Path '/root/myscript/kill-process': Permission denied ]
+[3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                       File: /root/myscript/kill-process/killprocess.config                                                    [42;1H^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next
+[43d(B[0;7m^X(B[m Exit[43;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket
+[3d[41d[J[43;143H[43;1H[?1049l
+[?1l>]0;sarath@ubuntu: ~[01;32msarath@ubuntu[00m:[01;34m~[00m$ cd /root/myscript/kill-process
+bash: cd: /root/myscript/kill-process: Permission denied
+]0;sarath@ubuntu: ~[01;32msarath@ubuntu[00m:[01;34m~[00m$ cd /root/myscript/kill-process[1Proot/myscript/kill-process
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;sarath@ubuntu: ~/root/myscript/kill-process[01;32msarath@ubuntu[00m:[01;34m~/root/myscript/kill-process[00m$ chmod +x install.sh
+]0;sarath@ubuntu: ~/root/myscript/kill-process[01;32msarath@ubuntu[00m:[01;34m~/root/myscript/kill-process[00m$ bash install.sh
+cronjobs added successfull!
+]0;sarath@ubuntu: ~/root/myscript/kill-process[01;32msarath@ubuntu[00m:[01;34m~/root/myscript/kill-process[00m$ bash killprocess.sh [dry|kill|--help] [top|ps] [cpu|time|mem]
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+Usage: time [-apvV] [-f format] [-o file] [--append] [--verbose]
+       [--portability] [--format=format] [--output=file] [--version]
+       [--quiet] [--help] command [arg...]
+--help]: command not found
+No command 'ps]' found, did you mean:
+ Command 'psf' from package 'tcm' (universe)
+ Command 'psw' from package 'wise' (universe)
+ Command 'psc' from package 'sc' (universe)
+ Command 'ps' from package 'procps' (main)
+ Command 'psi' from package 'psi' (universe)
+ Command 'psl' from package 'psl' (universe)
+ps]: command not found
+mem]: command not found
+]0;sarath@ubuntu: ~/root/myscript/kill-process[01;32msarath@ubuntu[00m:[01;34m~/root/myscript/kill-process[00m$ bash killprocess.sh dry
+[33mLoading settings from /home/sarath/root/myscript/kill-process/killprocess.config. (B[m
+process use default environment columns number.
+Process execute in '[33mdry(B[m' mode (no kill).
+Process fetched by '[33mtop(B[m' command
+Process sort by default [33mCPU(B[m ( 9 )
+Check [33m/usr/sbin/apache2(B[m process...
+[33mTOP %CPU consuming /usr/sbin/apache2 process is:(B[m
+c1:
+c2:
+c3:
+c4:
+PID:10325
+PNAME:
+CPU:
+TIME_STR:
+TIME_SEC:0
+USER:
+COMMAND:
+killprocess.sh: line 379: [: -gt: unary operator expected
+[32m/usr/sbin/apache2 it's OK!(B[m
+ 
+Check [33m/usr/bin/php5-cgi(B[m process...
+[33mTOP %CPU consuming /usr/bin/php5-cgi process is:(B[m
+c1:
+c2:
+c3:
+c4:
+PID:10367
+PNAME:
+CPU:
+TIME_STR:
+TIME_SEC:0
+USER:
+COMMAND:
+killprocess.sh: line 379: [: -gt: unary operator expected
+[32m/usr/bin/php5-cgi it's OK!(B[m
+ 
+]0;sarath@ubuntu: ~/root/myscript/kill-process[01;32msarath@ubuntu[00m:[01;34m~/root/myscript/kill-process[00m$ bash killprocess.sh dry top
+[33mLoading settings from /home/sarath/root/myscript/kill-process/killprocess.config. (B[m
+process use default environment columns number.
+Process execute in '[33mdry(B[m' mode (no kill).
+Process fetched by '[33mtop(B[m' command
+Process sort by default [33mCPU(B[m ( 9 )
+Check [33m/usr/sbin/apache2(B[m process...
+[33mTOP %CPU consuming /usr/sbin/apache2 process is:(B[m
+c1:
+c2:
+c3:
+c4:
+PID:10419
+PNAME:
+CPU:
+TIME_STR:
+TIME_SEC:0
+USER:
+COMMAND:
+killprocess.sh: line 379: [: -gt: unary operator expected
+[32m/usr/sbin/apache2 it's OK!(B[m
+ 
+Check [33m/usr/bin/php5-cgi(B[m process...
+[33mTOP %CPU consuming /usr/bin/php5-cgi process is:(B[m
+c1:
+c2:
+c3:
+c4:
+PID:10461
+PNAME:
+CPU:
+TIME_STR:
+TIME_SEC:0
+USER:
+COMMAND:
+killprocess.sh: line 379: [: -gt: unary operator expected
+[32m/usr/bin/php5-cgi it's OK!(B[m
+ 
+]0;sarath@ubuntu: ~/root/myscript/kill-process[01;32msarath@ubuntu[00m:[01;34m~/root/myscript/kill-process[00m$ bash killprocess.sh kill top cpu
+[33mLoading settings from /home/sarath/root/myscript/kill-process/killprocess.config. (B[m
+process use default environment columns number.
+[31mProcess execute in 'kill' mode.(B[m
+Process fetched by '[33mtop(B[m' command
+Process sort by [33m%CPU(B[m ( 9 )
+Check [33m/usr/sbin/apache2(B[m process...
+[33mTOP %CPU consuming /usr/sbin/apache2 process is:(B[m
+c1:
+c2:
+c3:
+c4:
+PID:10513
+PNAME:
+CPU:
+TIME_STR:
+TIME_SEC:0
+USER:
+COMMAND:
+killprocess.sh: line 379: [: -gt: unary operator expected
+[32m/usr/sbin/apache2 it's OK!(B[m
+ 
+Check [33m/usr/bin/php5-cgi(B[m process...
+[33mTOP %CPU consuming /usr/bin/php5-cgi process is:(B[m
+c1:
+c2:
+c3:
+c4:
+PID:10555
+PNAME:
+CPU:
+TIME_STR:
+TIME_SEC:0
+USER:
+COMMAND:
+killprocess.sh: line 379: [: -gt: unary operator expected
+[32m/usr/bin/php5-cgi it's OK!(B[m
+ 
+]0;sarath@ubuntu: ~/root/myscript/kill-process[01;32msarath@ubuntu[00m:[01;34m~/root/myscript/kill-process[00m$ bash killprocess.sh dry ps mem
+[33mLoading settings from /home/sarath/root/myscript/kill-process/killprocess.config. (B[m
+process use default environment columns number.
+Process execute in '[33mdry(B[m' mode (no kill).
+Process fetched by '[33mps(B[m' command
+Process sort by default [33mCPU(B[m ( 2 )
+Check [33m/usr/sbin/apache2(B[m process...
+[33mTOP MEMORY consuming /usr/sbin/apache2 process is:(B[m
+PID:10605
+PNAME:
+CPU:
+MEM:0MB (924kb)
+MAX_RAM is 350MB
+USER:
+COMMAND:
+[32m/usr/sbin/apache2 it's OK!(B[m
+ 
+Check [33m/usr/bin/php5-cgi(B[m process...
+[33mTOP MEMORY consuming /usr/bin/php5-cgi process is:(B[m
+PID:10641
+PNAME:
+CPU:
+MEM:0MB (924kb)
+MAX_RAM is 350MB
+USER:
+COMMAND:
+[32m/usr/bin/php5-cgi it's OK!(B[m
+ 
+]0;sarath@ubuntu: ~/root/myscript/kill-process[01;32msarath@ubuntu[00m:[01;34m~/root/myscript/kill-process[00m$ bash killprocess.sh kill ps mem
+[33mLoading settings from /home/sarath/root/myscript/kill-process/killprocess.config. (B[m
+process use default environment columns number.
+[31mProcess execute in 'kill' mode.(B[m
+Process fetched by '[33mps(B[m' command
+Process sort by default [33mCPU(B[m ( 2 )
+Check [33m/usr/sbin/apache2(B[m process...
+[33mTOP MEMORY consuming /usr/sbin/apache2 process is:(B[m
+PID:10685
+PNAME:
+CPU:
+MEM:0MB (988kb)
+MAX_RAM is 350MB
+USER:
+COMMAND:
+[32m/usr/sbin/apache2 it's OK!(B[m
+ 
+Check [33m/usr/bin/php5-cgi(B[m process...
+[33mTOP MEMORY consuming /usr/bin/php5-cgi process is:(B[m
+PID:10721
+PNAME:
+CPU:
+MEM:0MB (940kb)
+MAX_RAM is 350MB
+USER:
+COMMAND:
+[32m/usr/bin/php5-cgi it's OK!(B[m
+ 
+]0;sarath@ubuntu: ~/root/myscript/kill-process[01;32msarath@ubuntu[00m:[01;34m~/root/myscript/kill-process[00m$ bash killprocess.sh kill ps mem[Kclear
+[3;J[H[2J]0;sarath@ubuntu: ~/root/myscript/kill-process[01;32msarath@ubuntu[00m:[01;34m~/root/myscript/kill-process[00m$ 
+[K]0;sarath@ubuntu: ~/root/myscript/kill-process[01;32msarath@ubuntu[00m:[01;34m~/root/myscript/kill-process[00m$ clearbash killprocess.sh kill ps mem[1Pdry[C[C[C[C[C[C[Ckill top cpu
+[33mLoading settings from /home/sarath/root/myscript/kill-process/killprocess.config. (B[m
+process use default environment columns number.
+[31mProcess execute in 'kill' mode.(B[m
+Process fetched by '[33mtop(B[m' command
+Process sort by [33m%CPU(B[m ( 9 )
+Check [33m/usr/sbin/apache2(B[m process...
+[32mThere isn't any matched process for /usr/sbin/apache2(B[m
+Check [33m/usr/bin/php5-cgi(B[m process...
+[32mThere isn't any matched process for /usr/bin/php5-cgi(B[m
+]0;sarath@ubuntu: ~/root/myscript/kill-process[01;32msarath@ubuntu[00m:[01;34m~/root/myscript/kill-process[00m$ bash killprocess.sh kill top cpuclear[Kbash killprocess.sh kill ps mem
+[33mLoading settings from /home/sarath/root/myscript/kill-process/killprocess.config. (B[m
+process use default environment columns number.
+[31mProcess execute in 'kill' mode.(B[m
+Process fetched by '[33mps(B[m' command
+Process sort by default [33mCPU(B[m ( 2 )
+Check [33m/usr/sbin/apache2(B[m process...
+[33mTOP MEMORY consuming /usr/sbin/apache2 process is:(B[m
+PID:10851
+PNAME:
+CPU:
+MEM:0MB (1012kb)
+MAX_RAM is 350MB
+USER:
+COMMAND:
+[32m/usr/sbin/apache2 it's OK!(B[m
+ 
+Check [33m/usr/bin/php5-cgi(B[m process...
+[33mTOP MEMORY consuming /usr/bin/php5-cgi process is:(B[m
+PID:10887
+PNAME:
+CPU:
+MEM:0MB (984kb)
+MAX_RAM is 350MB
+USER:
+COMMAND:
+[32m/usr/bin/php5-cgi it's OK!(B[m
+ 
+]0;sarath@ubuntu: ~/root/myscript/kill-process[01;32msarath@ubuntu[00m:[01;34m~/root/myscript/kill-process[00m$ bash killprocess.sh kill ps memtop cpuclear[Kbash killprocess.sh kill ps mem[1Pdry[C[C[C[C[C[C[Ckill top cpu[5Pdry top[K[dry|kill|--help]
+] [top|ps] [cpu|time|mem][A
+]0;sarath@ubuntu: ~/root/myscript/kill-process[01;32msarath@ubuntu[00m:[01;34m~/root/myscript/kill-process[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdry[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C top cpu
+[33mLoading settings from /home/sarath/root/myscript/kill-process/killprocess.config. (B[m
+process use default environment columns number.
+Process execute in '[33mdry(B[m' mode (no kill).
+Process fetched by '[33mtop(B[m' command
+Process sort by [33m%CPU(B[m ( 9 )
+Check [33m/usr/sbin/apache2(B[m process...
+[32mThere isn't any matched process for /usr/sbin/apache2(B[m
+Check [33m/usr/bin/php5-cgi(B[m process...
+[32mThere isn't any matched process for /usr/bin/php5-cgi(B[m
+]0;sarath@ubuntu: ~/root/myscript/kill-process[01;32msarath@ubuntu[00m:[01;34m~/root/myscript/kill-process[00m$ 
+[K]0;sarath@ubuntu: ~/root/myscript/kill-process[01;32msarath@ubuntu[00m:[01;34m~/root/myscript/kill-process[00m$ exit
+exit
+
+Script done on Tue 07 Apr 2020 12:30:09 PM IST

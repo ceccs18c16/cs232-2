@@ -1,0 +1,25 @@
+Script started on Tue 07 Apr 2020 10:55:18 AM IST
+]0;sarath@ubuntu: ~[01;32msarath@ubuntu[00m:[01;34m~[00m$ gedit addnames.sh
+]0;sarath@ubuntu: ~[01;32msarath@ubuntu[00m:[01;34m~[00m$ gedit user.txt
+]0;sarath@ubuntu: ~[01;32msarath@ubuntu[00m:[01;34m~[00m$ bash addnames.sh directory user.txt
+2
+1
+1
+user details has been saved
+]0;sarath@ubuntu: ~[01;32msarath@ubuntu[00m:[01;34m~[00m$ bash addnames.sh directory user.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Pgedit[C[C[C[C[C[C[C[C[C
+]0;sarath@ubuntu: ~[01;32msarath@ubuntu[00m:[01;34m~[00m$ gedit user.txt[21@bash addnames.sh directory[C[C[C[C[C[C[C[C[Cs.txt
+2
+1
+grep: users.txt: No such file or directory
+2
+user found
+]0;sarath@ubuntu: ~[01;32msarath@ubuntu[00m:[01;34m~[00m$ chmos[Kd +x addnames.sh
+]0;sarath@ubuntu: ~[01;32msarath@ubuntu[00m:[01;34m~[00m$ ./addnames.sh
+0
+3 parameters required 
+
+]0;sarath@ubuntu: ~[01;32msarath@ubuntu[00m:[01;34m~[00m$ exit\[K
+exit
+
+Script done on Tue 07 Apr 2020 11:23:25 AM IST
