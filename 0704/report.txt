@@ -34,35 +34,6 @@ Remarks if any:
 -------------------------------------
 
 
---------------------------------
-#2: Kill process (s9)
----------------------------------
 
-Command/Shell script/Program name
----------------------------------
-		
-	killprocess.sh
-	install.sh
-
---------------------------------
-Input:
-
-	$ nano /root/myscript/kill-process/killprocess.config
-	$ bash killprocess.sh dry
-	$ bash killprocess.sh dry top
-	$ bash killprocess.sh kill top cpu
-	$ bash killprocess.sh dry ps mem
-	$ bash killprocess.sh kill ps mem
-	
---------------------------------
-Output:
-
-	Screenshot -> s9.png	
--------------------
-Remarks if any:
-
-	
--------------------------------------
--------------------------------------
 
 
