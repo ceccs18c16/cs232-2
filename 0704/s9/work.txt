@@ -1,71 +1,8 @@
 Script started on Tue 07 Apr 2020 11:55:41 AM IST
 
 ]0;sarath@ubuntu: ~[01;32msarath@ubuntu[00m:[01;34m~[00m$ cd /root/myscript[1Proot/myscript
-]0;sarath@ubuntu: ~/root/myscript[01;32msarath@ubuntu[00m:[01;34m~/root/myscript[00m$ V[Kgit clone https://github.com/padosoft/kill-proces 
-s.git
-fatal: destination path 'kill-process' already exists and is not an empty directory.
-]0;sarath@ubuntu: ~/root/myscript[01;32msarath@ubuntu[00m:[01;34m~/root/myscript[00m$ git clone https://github.com/padosoft/kill-process
-s.git
-Cloning into 'kill-process'...
-remote: Enumerating objects: 55, done.[K
-Unpacking objects:   1% (1/55)   
-Unpacking objects:   3% (2/55)   
-Unpacking objects:   5% (3/55)   
-Unpacking objects:   7% (4/55)   
-Unpacking objects:   9% (5/55)   
-Unpacking objects:  10% (6/55)   
-Unpacking objects:  12% (7/55)   
-Unpacking objects:  14% (8/55)   
-Unpacking objects:  16% (9/55)   
-Unpacking objects:  18% (10/55)   
-Unpacking objects:  20% (11/55)   
-Unpacking objects:  21% (12/55)   
-Unpacking objects:  23% (13/55)   
-Unpacking objects:  25% (14/55)   
-Unpacking objects:  27% (15/55)   
-Unpacking objects:  29% (16/55)   
-Unpacking objects:  30% (17/55)   
-Unpacking objects:  32% (18/55)   
-Unpacking objects:  34% (19/55)   
-Unpacking objects:  36% (20/55)   
-Unpacking objects:  38% (21/55)   
-Unpacking objects:  40% (22/55)   
-Unpacking objects:  41% (23/55)   
-Unpacking objects:  43% (24/55)   
-Unpacking objects:  45% (25/55)   
-Unpacking objects:  47% (26/55)   
-Unpacking objects:  49% (27/55)   
-Unpacking objects:  50% (28/55)   
-Unpacking objects:  52% (29/55)   
-remote: Total 55 (delta 0), reused 0 (delta 0), pack-reused 55[K
-Unpacking objects:  54% (30/55)   
-Unpacking objects:  56% (31/55)   
-Unpacking objects:  58% (32/55)   
-Unpacking objects:  60% (33/55)   
-Unpacking objects:  61% (34/55)   
-Unpacking objects:  63% (35/55)   
-Unpacking objects:  65% (36/55)   
-Unpacking objects:  67% (37/55)   
-Unpacking objects:  69% (38/55)   
-Unpacking objects:  70% (39/55)   
-Unpacking objects:  72% (40/55)   
-Unpacking objects:  74% (41/55)   
-Unpacking objects:  76% (42/55)   
-Unpacking objects:  78% (43/55)   
-Unpacking objects:  80% (44/55)   
-Unpacking objects:  81% (45/55)   
-Unpacking objects:  83% (46/55)   
-Unpacking objects:  85% (47/55)   
-Unpacking objects:  87% (48/55)   
-Unpacking objects:  89% (49/55)   
-Unpacking objects:  90% (50/55)   
-Unpacking objects:  92% (51/55)   
-Unpacking objects:  94% (52/55)   
-Unpacking objects:  96% (53/55)   
-Unpacking objects:  98% (54/55)   
-Unpacking objects: 100% (55/55)   
-Unpacking objects: 100% (55/55), done.
-Checking connectivity... done.
+
+
 ]0;sarath@ubuntu: ~/root/myscript[01;32msarath@ubuntu[00m:[01;34m~/root/myscript[00m$ cd kill-process
 ]0;sarath@ubuntu: ~/root/myscript/kill-process[01;32msarath@ubuntu[00m:[01;34m~/root/myscript/kill-process[00m$ chmod +x killprocess.sh
 ]0;sarath@ubuntu: ~/root/myscript/kill-process[01;32msarath@ubuntu[00m:[01;34m~/root/myscript/kill-process[00m$ cp /root/myscript/kill-process/killp 
