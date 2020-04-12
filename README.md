@@ -1,8 +1,8 @@
 # Task(1-9)
 
-(t1) `Linux commands`
+(t1) ***Linux commands***
 
-(t2) `Scripting Task`
+(t2) ***Scripting Task***
 ```
 - Download KTU S1 results of your batch.
 - Convert to .txt file: may be pdftotext -layout useful
@@ -18,33 +18,33 @@ O,A+,A,B+,B,C,P,F,FE,I
 10,9,8.5,8,7,6,5,0,0,0
 ```
   
-(t3) `Networking tasks`
+(t3) ***Networking tasks***
 ```
 Set up n/w with ifconfig, route, /etc/resolv.conf
 ```
 
-(t4) `ssh, rsync, scp etc.`
+(t4) ***ssh, rsync, scp etc.***
 
-(t5) `ftp usage`
+(t5) ***ftp usage***
 
-(t6) `Linux installation`
+(t6) ***Linux installation***
 
-(t7) `Setting up http and ftp servers`
+(t7) ***Setting up http and ftp servers***
 
-(t8) `Further tasks`
+(t8) ***Further tasks***
 1. Package management
 2. perl
 3. LAMP stack
 4. Kernel compilation
 
 
-(t9) `Create own web page at our server.`
+(t9) ***Create own web page at our server.***
 
 
 
 # Syllabus Experiment(4-9)
 
-4.  `Shell Programming` :  Write shell script to show various system configuration like 
+4.  ***Shell Programming*** :  Write shell script to show various system configuration like 
       - [x]  Currently logged user and his login name 
       - [x]  Your current shell 
       - [x]  Your home directory 
@@ -75,7 +75,7 @@ Set up n/w with ifconfig, route, /etc/resolv.conf
       - [x]  check whether the ulist file exists and print an error message if it does not 
       - [x]  check  whether  the  username  already  exists  in  the  file.  If  the  username  exists,  print  a message stating that the name already exists. Otherwise, add the username to the end of the list.
 
-8.  `Version Control System setup and usage using GIT.` Try the following features. 
+8.  ***Version Control System setup and usage using GIT.*** Try the following features. 
        - [ ]  Creating a repository 
        - [ ]  Checking out a repository 
        - [ ]  Adding content to the repository 
